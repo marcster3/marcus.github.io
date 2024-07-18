@@ -24,6 +24,8 @@ p, h4 {
     margin-bottom: 3px;
     font-family: 'graphia';
     font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .name {
@@ -37,6 +39,7 @@ p, h4 {
 .ind-text {
     font-family: 'balance';
     font-size: 20px;
+    margin: 0;
 }
 
 .ind-subtitle{
@@ -51,8 +54,24 @@ p, h4 {
 }
 
 .cont-box{
-    width: 72%;
-    margin-left: 14%;
+    margin-top: 40px;
+    width: 35%;
+    margin-left: 32.5%;
+    display: flex;
+    justify-content: space-between;
+    color: #222601;
+    background-color: #F2EAC2;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;;
+}
+
+.cont-title{
+    font-family: 'migae';
+    margin: 0;
+    font-size: 45px;
 }
 
 .top-container {
@@ -66,7 +85,7 @@ p, h4 {
     border-color: black;
     border-radius: 10px;
     padding: 30px;*/
-    padding-top: 80px;
+    padding-top: 110px;
 }
 
 .name-container {
@@ -96,7 +115,7 @@ a:hover {
     margin-left: 15%;
     padding-left: 50px;
     padding-top: 55px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     font-size: 20px;
     background-color: #F2EAC2;
     justify-content: center;;
@@ -244,6 +263,7 @@ a:hover {
     width: 80%;
     margin-left: 10%;
     margin-top: 60px;
+    padding-bottom: 30px;
 }
 
 .cour-box-top{
@@ -293,6 +313,32 @@ a:hover {
     
 }
 
+.abt-box{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.abt-sect{
+    width: 72%;
+    margin-left: 14%;
+}
+
+.abt-subtitle{
+    font-family: 'migae';
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.abt-text {
+    font-family: 'balance';
+    font-size: 20px;
+}
+
+.abt-link{
+    color: #3E4001;
+}
+
 @font-face {
     font-family: 'paradose';
     src: url(WsParadoseRegular-1jPAe.ttf);
@@ -312,8 +358,13 @@ a:hover {
     font-family: 'migae';
     src: url(MigaeSemibold-3zd2M.otf);
 }
-
+/*
 @font-face {
     font-family: 'balance';
     src: url(Balancegroovyregular-RpZzl.otf);
+}*/
+
+@font-face{
+    font-family: 'balance';
+    src: url(TT\ Chocolates\ Trial\ Regular.ttf);
 }
