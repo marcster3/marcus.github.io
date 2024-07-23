@@ -1,9 +1,13 @@
 html {
-    background-color: #BCBF6B;
+    background-color: #FAF5E6;
 }
 
 body {
     margin: 0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 p, h4 {
@@ -11,7 +15,7 @@ p, h4 {
 }
 
 .menu-box {
-    background-color: #BCBF6B;
+    background-color: #FAF5E6;
     position: fixed;
     width: 100%;
 }
@@ -28,6 +32,11 @@ p, h4 {
     padding-right: 20px;
 }
 
+.menu-curr {
+    color: #6a6d0f;
+}
+
+
 .name {
     color: #222601;
     font-family: 'paradose';
@@ -35,6 +44,11 @@ p, h4 {
     padding: 0px;
     margin: 0px;
 }
+
+.linkd {
+    text-decoration: underline 2px;
+}
+
 
 .ind-text {
     font-family: 'balance';
@@ -60,7 +74,7 @@ p, h4 {
     display: flex;
     justify-content: space-between;
     color: #222601;
-    background-color: #F2EAC2;
+    /*background-color: #F2EAC2;*/
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -117,7 +131,7 @@ a:hover {
     padding-top: 55px;
     padding-bottom: 30px;
     font-size: 20px;
-    background-color: #F2EAC2;
+    background-color: #d8d99d;
     justify-content: center;;
 }
 
@@ -163,7 +177,7 @@ a:hover {
 .download-button{
     width: 150px;
     font-size: 20px;
-    background-color: #d94930;
+    background-color: white;
     color: #222601;
     border-width: 2px;
     border-color: #222601;
@@ -173,7 +187,7 @@ a:hover {
 }
 
 .download-button:hover{
-    background-color: #3E4001;
+    background-color: #6a6d0f;
 }
 
 .button-box {
@@ -200,7 +214,7 @@ a:hover {
 }
 
 .film-title{
-    color: black;
+    color: #222601;
     font-family: 'paradose';
     font-size: 100px;
     padding: 0;
@@ -273,7 +287,7 @@ a:hover {
 }
 
 .cour-title{
-    color: black;
+    color: #222601;
     font-family: 'paradose';
     font-size: 100px;
     padding: 0;
